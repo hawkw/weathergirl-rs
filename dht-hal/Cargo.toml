@@ -1,0 +1,17 @@
+[package]
+name = "dht-hal"
+version = "0.0.1"
+authors = ["Eliza Weisman <eliza@buoyant.io>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/hawkw/weathergirl-rs"
+homepage = "https://github.com/hawkw/weathergirl-rs/blob/master/dht-hal"
+description = """
+A DHT11/DHT22 driver for `embedded-hal`.
+"""
+categories = ["embedded", "hardware-support", "no-std"]
+keywords = ["io", "sensor", "hal", "embedded-hal"]
+
+[dependencies]
+embedded-hal = { version = "0.2", features = ["unproven"] }
