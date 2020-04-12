@@ -89,7 +89,7 @@ struct Pulse {
     hi: u8,
 }
 
-impl<P, T, K> Dht<P, T, K>
+impl<P, T, K, E> Dht<P, T, K>
 where
     P: digital::InputPin<Error = E> + digital::OutputPin<Error = E>,
     K: DhtKind,
@@ -271,6 +271,6 @@ impl<E> Error<E> {
     }
 }
 
-const fn celcius_to_fahrenheit(c: f32) -> f32 {
+fn celcius_to_fahrenheit(c: f32) -> f32 {
     c * 1.8 + 32.0
 }
