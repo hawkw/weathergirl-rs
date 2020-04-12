@@ -6,7 +6,7 @@ edition = "2018"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/hawkw/weathergirl-rs"
-homepage = "https://github.com/hawkw/weathergirl-rs/blob/master/dht-hal"
+homepage = "https://github.com/hawkw/weathergirl-rs/blob/tree/dht-hal"
 description = """
 A DHT11/DHT22 driver for `embedded-hal`.
 """
